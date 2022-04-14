@@ -23,142 +23,89 @@ pluralizelisttitles = false
 
 
 # Main menu
-[[menu.main]]
-    name       = "Join"
-    identifier = "menu.home"
-    url        = "/"
-    weight     = 1
 
 [[menu.main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 2: Application"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 3: Startup"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 4: Agency"
-    url        = "/"
-    weight     = 4
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 5: Portfolio"
-    url        = "/"
-    weight     = 5
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Features"
-    identifier = "menu.features"
-    url        = "/img/template-easy-customize.png"
+    name       = "Join Scouts"
+    identifier = "menu.joinscouts"
+    url        = "/img/recruitment-image-1.jpg"
     weight     = 3
 
 [[menu.main]]
-    name       = "Shortcodes"
-    identifier = "section.shortcodes"
+    name       = "Sections"
+    identifier = "section.sections"
     url        = ""
     weight     = 1
-    parent     = "menu.features"
+    parent     = "menu.joinscouts"
     post       = 1
 
 [[menu.main]]
-    name       = "Header variations"
-    identifier = "section.headervariations"
+    name       = "Adult Volunteers"
+    identifier = "section.adultvolunteer"
     url        = ""
     weight     = 2
-    parent     = "menu.features"
+    parent     = "menu.joinscouts"
     post       = 2
 
 [[menu.main]]
-    name       = "Accordions"
+    name       = "Squirrels"
     url        = ""
     weight     = 1
-    parent     = "section.shortcodes"
+    parent     = "section.sections"
 
 [[menu.main]]
-    name       = "Alerts"
+    name       = "Beavers"
     url        = ""
     weight     = 2
-    parent     = "section.shortcodes"
+    parent     = "section.sections"
 
 [[menu.main]]
-    name       = "Buttons"
+    name       = "Cubs"
     url        = ""
     weight     = 3
-    parent     = "section.shortcodes"
+    parent     = "section.sections"
 
 [[menu.main]]
-    name       = "Content Boxes"
+    name       = "Scouts"
     url        = ""
     weight     = 4
-    parent     = "section.shortcodes"
+    parent     = "section.sections"
 
 [[menu.main]]
-    name       = "Horizontal Blocks"
+    name       = "Explorers"
     url        = ""
     weight     = 5
-    parent     = "section.shortcodes"
+    parent     = "section.sections"
 
 [[menu.main]]
-    name       = "Pagination"
+    name       = "Network"
     url        = ""
     weight     = 6
-    parent     = "section.shortcodes"
+    parent     = "section.sections"
 
 [[menu.main]]
-    name       = "Tabs"
-    url        = ""
-    weight     = 7
-    parent     = "section.shortcodes"
-
-[[menu.main]]
-    name       = "Typography"
-    url        = ""
-    weight     = 8
-    parent     = "section.shortcodes"
-
-[[menu.main]]
-    name       = "Default Sticky Header"
+    name       = "Volunteer"
     url        = ""
     weight     = 1
-    parent     = "section.headervariations"
+    parent     = "section.adultvolunteer"
 
 [[menu.main]]
-    name       = "No Sticky Header"
+    name       = "Leader Resources"
     url        = ""
     weight     = 2
-    parent     = "section.headervariations"
+    parent     = "section.adultvolunteer"
 
 [[menu.main]]
-    name       = "Light Header"
-    url        = ""
-    weight     = 3
-    parent     = "section.headervariations"
-
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "menu.portfolio"
-    url        = "/img/template-homepage.png"
+    name       = "Activities"
+    identifier = "menu.activities"
+    url        = "/img/facebook-banner-820x462.jpg"
     weight     = 3
 
 [[menu.main]]
-    name       = "Portfolio"
+    name       = "Activities"
     identifier = "section.portfolio"
     url        = ""
     weight     = 1
-    parent     = "menu.portfolio"
+    parent     = "menu.activities"
     post       = 1
 
 [[menu.main]]
@@ -214,7 +161,7 @@ pluralizelisttitles = false
     identifier = "section.about"
     url        = ""
     weight     = 2
-    parent     = "menu.portfolio"
+    parent     = "menu.activities"
     post       = 2
 
 [[menu.main]]
@@ -234,7 +181,7 @@ pluralizelisttitles = false
     identifier = "section.marketing"
     url        = ""
     weight     = 3
-    parent     = "menu.portfolio"
+    parent     = "menu.activities"
     post       = 2
 
 [[menu.main]]
@@ -359,14 +306,8 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "tel:+12 34 567 89 01"
+    url = "tel:+44"
     pre = "<i class='fas fa-2x fa-phone'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 3
@@ -383,12 +324,12 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:hello@culterscouts.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
+    author = "Ben Rumbles"
     defaultKeywords = ["devcows", "hugo", "go"]
     mainSections = ["blog"]
     defaultDescription = "Site template made by Devcows using Hugo"
@@ -442,8 +383,8 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>Our aim is to develop #skillsforlife and ensure that everyone has the opportunity to discover their full potential no matter what their background</p>"
+    copyright = "© 2022, 58th Aberdeen Scout Group (Culter). Registered Scottish Charity : SC033968"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -451,7 +392,7 @@ pluralizelisttitles = false
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "Universal"
+    logo_text = "58th Aberdeen Scouts (Culter)"
 
     logo = "img/logo.png"
     logo_small = "img/logo.png"
