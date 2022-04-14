@@ -28,7 +28,7 @@ pluralizelisttitles = false
     name       = "Join Scouts"
     identifier = "menu.joinscouts"
     url        = "/img/recruitment-image-1.jpg"
-    weight     = 3
+    weight     = 1
 
 [[menu.main]]
     name       = "Sections"
@@ -104,7 +104,7 @@ pluralizelisttitles = false
     name       = "Activities"
     identifier = "section.portfolio"
     url        = ""
-    weight     = 1
+    weight     = 2
     parent     = "menu.activities"
     post       = 1
 
